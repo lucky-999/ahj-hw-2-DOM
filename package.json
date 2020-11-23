@@ -1,0 +1,40 @@
+{
+  "name": "lucky-999-ahj-hw-2-DOM",
+  "version": "1.0.0",
+  "main": "js/app.js",
+  "repository": "https://github.com/lucky-999/lucky-999-ahj-hw-2-DOM.git",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "test": "jest --passWithNoTests",
+    "coverage": "jest --coverage",
+    "preshow:coverage": "npm run coverage",
+    "show:coverage": "live-server coverage/lcov-report",
+    "preshow:dist": "npm run build",
+    "show:dist": "live-server dist"
+  },
+  "author": "Ilya Tatarinov <itatarinov7@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.12.7",
+    "@babel/core": "^7.12.7",
+    "@babel/preset-env": "^7.12.7",
+    "babel": "^6.23.0",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.1",
+    "css-loader": "^5.0.1",
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^4.5.0",
+    "jest": "^26.6.3",
+    "live-server": "^1.2.1",
+    "mini-css-extract-plugin": "^1.3.1",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
