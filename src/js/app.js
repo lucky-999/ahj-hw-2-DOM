@@ -1,6 +1,6 @@
-console.log('it works!');
-
 import goblin from '../img/goblin.png';
+
+console.log('it works!');
 
 export default function start() {
   const img = document.createElement('img');
