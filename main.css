@@ -1,0 +1,17 @@
+body {
+  background: #eee;
+  text-align: center;
+}
+
+  
+td {
+  border: 2px solid #000000;
+  width: 150px;
+  height: 150px;
+}
+
+h1 {
+  color: blue;
+}
+
+/*# sourceMappingURL=main.css.map*/
